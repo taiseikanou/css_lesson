@@ -15,6 +15,23 @@ $cBlack: black;
     color: $cBlack;
     text-decoration: none !important;
 
+    &.float:hover{
+      background-color:  $cBlack;
+      color:$cWhite;
+      box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.5);
+    }
+
+    &.filled{
+      background-color:$cBlack;;
+      color:$cWhite;
+      box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.5);
+      &:hover{
+        background-color:  $cWhite;
+        color:$cBlack;
+        box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.5);
+      }
+
+    }
     /* ここにボタンのスタイルを追加していこう */
   }
 }
