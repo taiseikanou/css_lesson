@@ -4,12 +4,34 @@ body {
   text-align: center;
 }
 
+
+
+@mixin animation(
+  $name,
+  ){
+    animation-name: $name;
+}
+
 .rect {
   display: inline-block;
   width: 100px;
   height: 100px;
   background-color: $cBlack;
-  animation: sk-bouncedelay 1.4s;
+  @include animation(
+    $name: sk-bouncedelay
+    );
+  //animation: sk-bouncedelay 1.4s;
+  //animation-timing-function: ease;
+  //animation-interation-count: infinite;
+  //animation-direction: alternate-reverse;
+ // animation-fill-mode: b;
+  //transform: scale(0);
+
+
+}
+
+.paused{
+  animation-play-state: paused;
 }
 
 @keyframes sk-bouncedelay {
