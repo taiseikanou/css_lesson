@@ -1,28 +1,18 @@
 /*
-Error: Invalid CSS after "  @include mxn": expected "}", was ".animation($nam..."
-        on line 16 of /home/ec2-user/environment/css_lesson/03_HTMLとCSSを極める_アニメーション編/033_Mixinファイルを分割してみよう/start/loader.scss
+Error: Invalid CSS after "body{": expected "}", was ""
+        on line 1 of /home/ec2-user/environment/css_lesson/03_HTMLとCSSを極める_アニメーション編/033_Mixinファイルを分割してみよう/start/other-folder/_mixin.scss
 
-11: .rect {
-12:   display: inline-block;
-13:   width: 100px;
-14:   height: 100px;
-15:   background-color: $cBlack;
-16:   @include mxn.animation($name: sk-bouncedelay);
-17:   // animation: sk-bouncedelay 1.4s;
-18:   // animation-timing-function: ease;
-19:   // animation-delay: 3s;
-20:   // animation-iteration-count: infinite;
-21:   // animation-direction: alternate-reverse;
+1: body{
 
 Backtrace:
-/home/ec2-user/environment/css_lesson/03_HTMLとCSSを極める_アニメーション編/033_Mixinファイルを分割してみよう/start/loader.scss:16
+/home/ec2-user/environment/css_lesson/03_HTMLとCSSを極める_アニメーション編/033_Mixinファイルを分割してみよう/start/other-folder/_mixin.scss:1
 /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
 /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
 /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/sass-3.7.4/lib/sass/scss/parser.rb:1233:in `tok!'
 /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/sass-3.7.4/lib/sass/scss/parser.rb:690:in `block'
 /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/sass-3.7.4/lib/sass/scss/parser.rb:681:in `ruleset'
 /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
-/home/ec2-user/.rvm/gems/ruby-3.1.2/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
+/home/ec2-user/.rvm/gems/ruby-3.1.2/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
 /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
 /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/sass-3.7.4/lib/sass/scss/parser.rb:41:in `parse'
 /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
@@ -46,4 +36,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"  @include mxn\": expected \"}\", was \".animation($nam...\"\A         on line 16 of /home/ec2-user/environment/css_lesson/03_HTMLとCSSを極める_アニメーション編/033_Mixinファイルを分割してみよう/start/loader.scss\A \A 11: .rect {\A 12:   display: inline-block;\A 13:   width: 100px;\A 14:   height: 100px;\A 15:   background-color: $cBlack;\A 16:   @include mxn.animation($name: sk-bouncedelay);\A 17:   // animation: sk-bouncedelay 1.4s;\A 18:   // animation-timing-function: ease;\A 19:   // animation-delay: 3s;\A 20:   // animation-iteration-count: infinite;\A 21:   // animation-direction: alternate-reverse;"; }
+  content: "Error: Invalid CSS after \"body{\": expected \"}\", was \"\"\A         on line 1 of /home/ec2-user/environment/css_lesson/03_HTMLとCSSを極める_アニメーション編/033_Mixinファイルを分割してみよう/start/other-folder/_mixin.scss\A \A 1: body{"; }
